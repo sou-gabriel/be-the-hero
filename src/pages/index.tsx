@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FiLogOut } from 'react-icons/fi'
+
+import GoBackIcon from '../assets/icons/go-back.svg'
 
 const Home: NextPage = () => {
   return (
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
         </form>
         <Link href="#">
           <a className="flex items-center text-lg hover:underline">
-            <FiLogOut className="text-red" />
+            <GoBackIcon />
             <span className="font-bold text-gray-800 ml-5">
               Não tenho cadastro
             </span>
