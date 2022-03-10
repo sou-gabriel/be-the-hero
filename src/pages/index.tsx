@@ -6,8 +6,8 @@ import GoBackIcon from '../assets/icons/go-back.svg'
 
 const Home: NextPage = () => {
   return (
-    <div className="container max-w-7xl flex items-center justify-between h-screen gap-x-32 px-4 mx-auto">
-      <section className="w-80 xl:w-96 ">
+    <div className="container max-w-[1120px] flex items-center justify-between h-screen gap-x-32 px-4 mx-auto">
+      <section className="w-[351px]">
         <div className="mb-24">
           <Image src="/logo.svg" alt="Be The Hero" width="250" height="106" />
         </div>
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           </fieldset>
           <button
             type="submit"
-            className="bg-red w-full text-white font-bold rounded-md h-14"
+            className="bg-red w-full text-white font-bold rounded-md h-[60px]"
           >
             Entrar
           </button>
