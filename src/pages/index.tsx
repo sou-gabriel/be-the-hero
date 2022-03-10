@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             Entrar
           </button>
         </form>
-        <Link href="#">
+        <Link href="/register">
           <a className="flex items-center text-lg hover:underline">
             <GoBackIcon />
             <span className="font-bold text-gray-800 ml-5">
